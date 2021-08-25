@@ -5,10 +5,10 @@
 #    pipenv lock --requirements
 #
 
--i https://pypi.org/simple
+-i https://pypi.org/simple/
 apipkg==1.5
 atomicwrites==1.4.0
-attrs==19.3.0
+attrs==21.2.0
 backports.shutil-get-terminal-size==1.0.0
 backports.ssl-match-hostname==3.7.0.1
 bcrypt==3.2.0
