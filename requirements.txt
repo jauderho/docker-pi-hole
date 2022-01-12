@@ -5,7 +5,7 @@
 #    pipenv lock --requirements
 #
 
--i https://pypi.org/simple
+-i https://pypi.org/simple/
 apipkg==1.5
 atomicwrites==1.4.0
 attrs==19.3.0
@@ -16,7 +16,7 @@ cached-property==1.5.2
 certifi==2021.5.30
 cffi==1.14.6
 chardet==3.0.4
-charset-normalizer==2.0.4; python_version >= '3'
+charset-normalizer==2.0.10; python_version >= '3'
 configparser==4.0.2
 contextlib2==0.6.0.post1
 coverage==5.5
@@ -35,7 +35,7 @@ jinja2==2.11.3
 jsonschema==3.2.0
 markupsafe==1.1.1
 more-itertools==5.0.0
-packaging==21.0; python_version >= '3.6'
+packaging==21.3; python_version >= '3.6'
 pathlib2==2.3.6
 pluggy==0.13.1
 py==1.10.0
@@ -50,6 +50,7 @@ python-dotenv==0.19.0
 pyyaml==5.4.1
 requests==2.26.0
 scandir==1.10.0
+setuptools==60.5.0; python_version >= '3.7'
 six==1.16.0
 subprocess32==3.5.4
 testinfra==3.4.0
@@ -60,4 +61,4 @@ urllib3==1.26.6
 virtualenv==16.7.12
 wcwidth==0.2.5
 websocket-client==0.59.0
-zipp==0.6.0
+zipp==3.7.0
